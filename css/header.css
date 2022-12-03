@@ -13,8 +13,20 @@ header {
     height: 13px;
     background-color: #999999;
 }
-
 .actions {
     display: flex;
     gap: 10px;
+}
+@media screen and (max-width:500px) {
+    .actions > .btn-icon {
+        display: none;
+        
+    }
+    .actions > button:first-child {
+        margin-right: px;
+    }
+    .actions * {
+        width: 72px;
+    }
+
 }
