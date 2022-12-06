@@ -1,0 +1,59 @@
+.hero {
+    width: 100%;
+    background-color: #D8D8D8;
+}
+.hero-inner {
+   display: flex;
+   align-items: center;
+   height: 364px;
+}
+.card {
+    background-color: white;
+    width: 389px;
+    padding: 38px;
+}
+.card > h1 {
+    margin-bottom: 62px;
+    font-size: 36px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom > p {
+    font-size: 14px;
+}
+.black-box {
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+    width: 97px;
+    height: 32px;
+}
+
+@media screen and (max-width:620px) {
+    .hero-inner {
+        width: 255px;
+        position: relative;
+    }
+    .card {
+        position: absolute;
+        bottom: -56px;
+        width: calc(100% - 16px);
+        min-width: auto;
+    }
+    .card h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .card .bottom {
+        flex-direction: column;
+    }
+    .card p {
+        font-size: 16px;
+        margin-bottom: 14.67px;
+    }
+    
+}

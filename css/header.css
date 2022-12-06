@@ -22,9 +22,6 @@ header {
         display: none;
         
     }
-    .actions > button:first-child {
-        margin-right: px;
-    }
     .actions * {
         width: 72px;
     }
